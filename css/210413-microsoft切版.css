@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.contanier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  float: left;
+  font-size: 13px;
+}
+
+#links {
+  width: 1709px;
+  height: 54px;
+  background-color: #dddddd;
+}
+
+#microsoft-logo {
+  width: 137px;
+  height: 100%;
+  background-color: #b8b7b7;
+}
+
+.aria-label {
+  width: 1054px;
+  height: 100%;
+  background-color: #929292;
+}
+
+.options {
+  width: 406px;
+  height: 100%;
+  background-color: #686767;
+}
+/*# sourceMappingURL=210413-microsoft切版.css.map */
