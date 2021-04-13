@@ -8,15 +8,19 @@ body {
 }
 
 .contanier {
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 ul {
@@ -27,30 +31,117 @@ ul {
 
 li {
   float: left;
+}
+
+a {
+  text-decoration: none;
   font-size: 13px;
+  color: #262626;
+}
+
+li a {
+  height: 48px;
+  font-weight: 1px solid bolder;
+  display: inline-block;
+}
+
+nav {
+  width: 100%;
+  height: 54px;
 }
 
 #links {
-  width: 1709px;
-  height: 54px;
-  background-color: #dddddd;
+  width: 1600px;
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #microsoft-logo {
   width: 137px;
   height: 100%;
-  background-color: #b8b7b7;
+  background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+  padding: 16px 10px 16px 6px;
 }
 
 .aria-label {
-  width: 1054px;
+  width: 1056px;
   height: 100%;
-  background-color: #929292;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 2px 1px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.singel-link {
+  width: 97.1px;
+  height: 48px;
+  margin: 1px 4px;
+  padding: 16px 8px 10px 8px;
+}
+
+.singel-link:nth-child(2n) {
+  width: 59.8px;
+}
+
+.singel-link:nth-child(3n) {
+  width: 78.8px;
+}
+
+.singel-link:nth-child(4n) {
+  width: 60.2px;
+}
+
+.singel-link:nth-child(5n) {
+  width: 46.9px;
+}
+
+.singel-link:nth-child(5n) {
+  width: 52px;
 }
 
 .options {
   width: 406px;
   height: 100%;
-  background-color: #686767;
+  background-color: #5a78db;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.options .singel-link:nth-child(1n) {
+  width: 143.1px;
+  padding: 0px 1px 0px 2px;
+  margin-right: 15px;
+}
+
+.options .singel-link:nth-child(2n) {
+  width: 90px;
+}
+
+.options .singel-link:nth-child(3n) {
+  width: 61px;
+}
+
+.options .singel-link:nth-child(4n) {
+  width: 90px;
 }
 /*# sourceMappingURL=210413-microsoft切版.css.map */
