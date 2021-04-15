@@ -209,7 +209,6 @@ main .cotanier {
 .quicklink-group {
   width: 554px;
   height: 144px;
-  background-color: darkviolet;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -223,7 +222,6 @@ main .cotanier {
 
 .quicklink {
   height: 84px;
-  background-color: dodgerblue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -265,7 +263,6 @@ main .cotanier {
 #pad-content-palcement {
   width: 800px;
   height: 411.9px;
-  background-color: darkslateblue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,7 +272,6 @@ main .cotanier {
   width: 400px;
   height: 411px;
   margin-right: 12px;
-  background-color: #b6adf2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
