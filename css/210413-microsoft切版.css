@@ -191,7 +191,7 @@ main .cotanier {
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWAx8d?ver=9954&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=1091&y=304&s=1909&d=1073&aim=true);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .quicklink-list {
