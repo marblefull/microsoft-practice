@@ -12,22 +12,22 @@ ul{
     margin: 0;
 }
 
-li{
+nav li{
     float: left;
 }
 
 a{
     text-decoration: none;
-    font-size: 13px;
     color: #262626;}
 
-li a{
+nav li a{
     height: 48px;
+    font-size: 13px;
     font-weight: 1px solid bolder;
     display: inline-block;
 }
 
-h2, h3{
+h1, h2, h3, h4{
 margin: 0;
 padding: 0;
 }
@@ -392,26 +392,26 @@ background-repeat: no-repeat;
 }
 
 .social-follow{
-width: 32px;
-height: 32px;
-border: 2px solid transparent;
-margin-right: 12px;
+    width: 32px;
+    height: 32px;
+    border: 2px solid transparent;
+    margin-right: 12px;
 }
 
 #fb{
-background-image:url(https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/_h/85288795/coreui.statics/images/social/facebook.png);
+    background-image:url(https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/_h/85288795/coreui.statics/images/social/facebook.png);
 
-background-position: center;
-background-repeat: no-repeat;
-background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
 #youtube{
     background-image: url(https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/_h/c79952ca/coreui.statics/images/social/youtube.png);
 
     background-position: center;
-background-repeat: no-repeat;
-background-size:contain;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
 #social-follow span{
@@ -424,4 +424,43 @@ background-size:contain;
 
 #social-follow .contanier{
     justify-content: flex-start;
+}
+
+footer{
+    width: 100%;
+    height: 396px;
+    background-color:#f2f2f2;  
+}
+
+.list-tepy{
+        font-size: 15px;
+        line-height: 20px;
+        margin: 36px 0 4px;
+        color: #616161;
+}
+
+#resource-link{
+    height: 324px;
+    padding: 0px 64px;
+    display: flex;
+    // align-items: center;
+}
+
+.footer-link-group{
+    width: 16%;
+    padding-right: 12px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer #resource-link .footer-link-group li{
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    margin: 8px 0;
+}
+
+.footer-base{
+    padding: 90px 5% 16px;
 }

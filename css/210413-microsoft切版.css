@@ -13,23 +13,23 @@ ul {
   margin: 0;
 }
 
-li {
+nav li {
   float: left;
 }
 
 a {
   text-decoration: none;
-  font-size: 13px;
   color: #262626;
 }
 
-li a {
+nav li a {
   height: 48px;
+  font-size: 13px;
   font-weight: 1px solid bolder;
   display: inline-block;
 }
 
-h2, h3 {
+h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
 }
@@ -449,5 +449,50 @@ main .cotanier {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+footer {
+  width: 100%;
+  height: 396px;
+  background-color: #f2f2f2;
+}
+
+.list-tepy {
+  font-size: 15px;
+  line-height: 20px;
+  margin: 36px 0 4px;
+  color: #616161;
+}
+
+#resource-link {
+  height: 324px;
+  padding: 0px 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-link-group {
+  width: 16%;
+  padding-right: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer #resource-link .footer-link-group li {
+  font-size: 11px;
+  line-height: 16px;
+  color: #616161;
+  margin: 8px 0;
+}
+
+.footer-base {
+  padding: 90px 5% 16px;
 }
 /*# sourceMappingURL=210413-microsoft切版.css.map */
