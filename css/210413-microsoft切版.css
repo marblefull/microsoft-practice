@@ -493,6 +493,21 @@ footer #resource-link .footer-link-group li {
 }
 
 .footer-base {
-  padding: 90px 5% 16px;
+  width: 100%;
+  height: 72px;
+  padding: 30px 6% 16px 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-base .list-tepy {
+  font-size: 11px;
 }
 /*# sourceMappingURL=210413-microsoft切版.css.map */
