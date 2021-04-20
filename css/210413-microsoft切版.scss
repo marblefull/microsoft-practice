@@ -462,5 +462,14 @@ footer #resource-link .footer-link-group li{
 }
 
 .footer-base{
-    padding: 90px 5% 16px;
+    width: 100%;
+    height: 72px;
+    padding: 30px 6% 16px 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-base .list-tepy{
+    font-size: 11px;
 }
