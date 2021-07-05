@@ -5,36 +5,29 @@
 
 body {
   margin: 0;
+  max-width: 1600px;
 }
 
-ul {
+body ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav li {
-  float: left;
-}
-
-a {
+body a {
   text-decoration: none;
   color: #262626;
 }
 
-nav li a {
-  height: 48px;
-  font-size: 13px;
-  font-weight: 1px solid bolder;
-  display: inline-block;
-}
-
-h1, h2, h3, h4 {
+body h1,
+body h2,
+body h3,
+body h4 {
   margin: 0;
   padding: 0;
 }
 
-.contanier {
+body .contanier {
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -50,13 +43,24 @@ h1, h2, h3, h4 {
       justify-content: space-around;
 }
 
-nav {
+body li {
+  float: left;
+}
+
+body li a {
+  height: 48px;
+  font-size: 13px;
+  font-weight: 1px solid bolder;
+  display: inline-block;
+}
+
+body nav {
   width: 100%;
   height: 54px;
 }
 
-#links {
-  width: 1600px;
+body nav #links {
+  width: 100%;
   height: 100%;
   background-color: white;
   display: -webkit-box;
@@ -70,7 +74,7 @@ nav {
           justify-content: space-between;
 }
 
-#microsoft-logo {
+body nav #links #microsoft-logo {
   width: 137px;
   height: 100%;
   background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31");
@@ -80,7 +84,7 @@ nav {
   padding: 16px 10px 16px 6px;
 }
 
-.aria-label {
+body nav #links .aria-label {
   width: 1056px;
   height: 100%;
   background-color: white;
@@ -93,34 +97,34 @@ nav {
           align-items: center;
 }
 
-.singel-link {
+body nav #links .aria-label .singel-link {
   width: 97.1px;
   height: 48px;
   margin: 1px 4px;
   padding: 16px 8px 10px 8px;
 }
 
-.singel-link:nth-child(2n) {
+body nav #links .aria-label .singel-link:nth-child(2n) {
   width: 59.8px;
 }
 
-.singel-link:nth-child(3n) {
+body nav #links .aria-label .singel-link:nth-child(3n) {
   width: 78.8px;
 }
 
-.singel-link:nth-child(4n) {
+body nav #links .aria-label .singel-link:nth-child(4n) {
   width: 60.2px;
 }
 
-.singel-link:nth-child(5n) {
+body nav #links .aria-label .singel-link:nth-child(5n) {
   width: 46.9px;
 }
 
-.singel-link:nth-child(5n) {
+body nav #links .aria-label .singel-link:nth-child(5n) {
   width: 52px;
 }
 
-.options {
+body nav #links .options {
   width: 406px;
   height: 100%;
   display: -webkit-box;
@@ -134,13 +138,7 @@ nav {
           justify-content: space-between;
 }
 
-.options .singel-link {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.options a {
+body nav #links .options a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,27 +147,43 @@ nav {
           align-items: center;
 }
 
-.options .singel-link:nth-child(1n) {
+body nav #links .options .singel-link {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body nav #links .options .singel-link:nth-child(1n) {
   width: 143.1px;
   padding: 0px 1px 0px 2px;
 }
 
-.options .singel-link:nth-child(2n) {
+body nav #links .options .singel-link:nth-child(2n) {
   width: 90px;
   padding: 0px 6px 1px 1px;
 }
 
-.options .singel-link:nth-child(3n) {
+body nav #links .options .singel-link:nth-child(3n) {
   width: 61px;
   padding: 1px 10px 7px 0px;
 }
 
-.options .singel-link:nth-child(4n) {
+body nav #links .options .singel-link:nth-child(4n) {
   width: 90px;
 }
 
-main .cotanier {
-  width: 1600px;
+body main #hightlight {
+  width: 100%;
+  height: 430.7px;
+  background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWAx8d?ver=9954&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=1091&y=304&s=1909&d=1073&aim=true);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body main .cotanier {
+  width: 100%;
+  padding: 0 20px 0px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,82 +194,8 @@ main .cotanier {
           flex-direction: column;
 }
 
-#primary-A1 {
+body main .cotanier .palcement {
   width: 100%;
-  height: 663px;
-}
-
-#hightlight {
-  width: 100%;
-  height: 430.7px;
-  background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWAx8d?ver=9954&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=1091&y=304&s=1909&d=1073&aim=true);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.quicklink-list {
-  width: 100%;
-  height: 177px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 48px;
-}
-
-.quicklink-group {
-  width: 554px;
-  height: 144px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.quicklink {
-  height: 84px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#quicklink-windows {
-  background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pkvE?ver=d8fc&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true);
-  background-position: center;
-  background-size: 30%;
-  background-repeat: no-repeat;
-}
-
-#primary-A2 {
-  width: 100%;
-  height: 409.9px;
-}
-
-#pad-content-palcement {
-  width: 800px;
-  height: 411.9px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.palcement {
-  width: 400px;
   height: 411px;
   margin-right: 12px;
   display: -webkit-box;
@@ -270,8 +210,73 @@ main .cotanier {
           align-items: flex-start;
 }
 
-.pic {
-  width: 382px;
+body main .cotanier #primary-A1 {
+  width: 100%;
+  height: 663px;
+}
+
+body main .cotanier #primary-A1 .quicklink-list {
+  width: 100%;
+  height: 177px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 48px;
+}
+
+body main .cotanier #primary-A1 .quicklink-list .quicklink-group {
+  width: 554px;
+  height: 144px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .cotanier #primary-A1 .quicklink-list .quicklink-group .quicklink {
+  height: 84px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .cotanier #primary-A1 .quicklink-list .quicklink-group #quicklink-windows {
+  background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pkvE?ver=d8fc&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true);
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+body main .cotanier #primary-A2 {
+  width: 100%;
+  height: 409.9px;
+}
+
+body main .cotanier #primary-A2 #pad-content-palcement {
+  width: 50%;
+  height: 411.9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .cotanier #primary-A2 #pad-content-palcement .pic {
+  width: 100%;
   height: 213.9px;
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4FTtq?ver=dae2&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true);
   background-position: center;
@@ -279,33 +284,25 @@ main .cotanier {
   background-repeat: no-repeat;
 }
 
-.title h3 {
+body main .cotanier #primary-A2 #pad-content-palcement .title {
   margin: 0;
 }
 
-.title {
-  width: 382px;
+body main .cotanier #primary-A2 #pad-content-palcement .title h3 {
+  width: 100%;
   height: 27px;
   margin-top: 37px;
   padding-top: 1px;
   padding-bottom: 2px;
 }
 
-.paragraph {
-  width: 382px;
+body main .cotanier #primary-A2 #pad-content-palcement .paragraph {
+  width: 100%;
   height: 42px;
   padding: 2px 12px 0px 0px;
 }
 
-.buynow {
-  width: 86.1px;
-  height: 40px;
-  font-size: 15px;
-  display: inline-block;
-  padding: 10px 3px 7px 0px;
-}
-
-.buynow-group {
+body main .cotanier #primary-A2 #pad-content-palcement .buynow-group {
   width: 380px;
   padding: 1px;
   display: -webkit-box;
@@ -313,7 +310,19 @@ main .cotanier {
   display: flex;
 }
 
-#item-365 .buynow {
+body main .cotanier #primary-A2 #pad-content-palcement .buynow-group .buynow {
+  width: 86.1px;
+  height: 40px;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 3px 7px 0px;
+}
+
+body main .cotanier #primary-A2 #pad-content-palcement #pad-content-palcement a {
+  color: #0067b8;
+}
+
+body main .cotanier #primary-A2 #pad-content-palcement #pad-content-palcement #item-365 .buynow {
   width: unset;
   display: inline-block;
   border: 2px solid transparent;
@@ -321,32 +330,28 @@ main .cotanier {
   margin-right: 4px;
 }
 
-#pad-content-palcement a {
-  color: #0067b8;
-}
-
-#item-365 .pic {
+body main .cotanier #primary-A2 #pad-content-palcement #pad-content-palcement #item-365 .pic {
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4E4rR?ver=1daf&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#item-xbox .pic {
+body main .cotanier #primary-A2 #pad-content-palcement #pad-content-palcement #item-xbox .pic {
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4H9G0?ver=5bb0&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#item-edge .pic {
+body main .cotanier #primary-A2 #pad-content-palcement #pad-content-palcement #item-edge .pic {
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rzE2?ver=aa0b&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#primary-A3 {
+body main .cotanier #primary-A2 #pad-content-palcement #primary-A3 {
   width: 100%;
   height: 598px;
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3hFDE?ver=e113&q=0&m=8&h=303&w=539&b=%23FFFFFFFF&l=f&x=504&y=148&s=1616&d=908&aim=true);
@@ -355,7 +360,7 @@ main .cotanier {
   background-size: cover;
 }
 
-#primary-A4 {
+body main .cotanier #primary-A2 #pad-content-palcement #primary-A4 {
   width: 100%;
   height: 459.9px;
   display: -webkit-box;
@@ -367,13 +372,7 @@ main .cotanier {
           flex-direction: column;
 }
 
-.pad {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.postation {
+body main .cotanier #primary-A2 #pad-content-palcement #primary-A4 .postation {
   padding-top: 48px;
   font-size: 24px;
   line-height: 32px;
@@ -381,63 +380,54 @@ main .cotanier {
   font-weight: 600;
 }
 
-#business-surface .pic {
+body main .cotanier #primary-A2 #pad-content-palcement #primary-A4 .pad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .cotanier #primary-A2 #pad-content-palcement #primary-A4 .pad #business-surface .pic {
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWAFBp?ver=b646&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#business-365 .pic {
+body main .cotanier #primary-A2 #pad-content-palcement #primary-A4 .pad #business-365 .pic {
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4CFyx?ver=25c5&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&x=839&y=615&aim=true);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#business-xbox .pic {
+body main .cotanier #primary-A2 #pad-content-palcement #primary-A4 .pad #business-xbox .pic {
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4E4rT?ver=2072&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#business-edge .pic {
+body main .cotanier #primary-A2 #pad-content-palcement #primary-A4 .pad #business-edge .pic {
   background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4DfTp?ver=8993&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&x=991&y=506&aim=true);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#social-follow {
+body main .cotanier #primary-A2 #pad-content-palcement #social-follow {
   width: 100%;
   height: 80px;
   margin-top: 48px;
 }
 
-.social-follow-group {
+body main .cotanier #primary-A2 #pad-content-palcement #social-follow .contanier {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body main .cotanier #primary-A2 #pad-content-palcement #social-follow .social-follow-group {
   width: 100%;
   padding-top: 48px;
 }
 
-.social-follow {
-  width: 32px;
-  height: 32px;
-  border: 2px solid transparent;
-  margin-right: 12px;
-}
-
-#fb {
-  background-image: url(https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/_h/85288795/coreui.statics/images/social/facebook.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#youtube {
-  background-image: url(https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/_h/c79952ca/coreui.statics/images/social/youtube.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#social-follow span {
+body main .cotanier #primary-A2 #pad-content-palcement #social-follow .social-follow-group span {
   padding-right: 12px;
   margin-bottom: 4px;
   font-size: 15px;
@@ -445,36 +435,54 @@ main .cotanier {
   color: rgba(0, 0, 0, 0.6);
 }
 
-#social-follow .contanier {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+body main .cotanier #primary-A2 #pad-content-palcement #social-follow .social-follow-group .social-follow {
+  width: 32px;
+  height: 32px;
+  border: 2px solid transparent;
+  margin-right: 12px;
 }
 
-footer {
+body main .cotanier #primary-A2 #pad-content-palcement #social-follow .social-follow-group #fb {
+  background-image: url(https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/_h/85288795/coreui.statics/images/social/facebook.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body main .cotanier #primary-A2 #pad-content-palcement #social-follow .social-follow-group #youtube {
+  background-image: url(https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/_h/c79952ca/coreui.statics/images/social/youtube.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body main .cotanier footer {
   width: 100%;
   height: 396px;
   background-color: #f2f2f2;
 }
 
-.list-tepy {
-  font-size: 15px;
-  line-height: 20px;
-  margin: 36px 0 4px;
-  color: #616161;
+body main .cotanier footer .list-tepy {
+  font-size: 11px;
+  margin: 0;
 }
 
-#resource-link {
-  height: 324px;
-  padding: 0px 64px;
+body main .cotanier footer a {
+  padding: 0 24px 4px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.footer-link-group {
+body main .cotanier footer .footer-link-group {
   width: 16%;
   padding-right: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -485,39 +493,36 @@ footer {
       justify-content: space-around;
 }
 
-footer #resource-link .footer-link-group li {
+body main .cotanier footer .footer-link-group li {
   font-size: 11px;
   line-height: 16px;
   color: #616161;
   margin: 8px 0;
 }
 
-.footer-base {
+body main .cotanier footer #resource-link {
+  height: 324px;
+  padding: 0px 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 36px 0 4px;
+  color: #616161;
+}
+
+body main .cotanier footer .footer-base {
   width: 100%;
   height: 72px;
   padding: 30px 4% 16px 4%;
 }
 
-#L-link {
+body main .cotanier footer .footer-base #L-link {
   float: left;
 }
 
-#R-link {
+body main .cotanier footer .footer-base #R-link {
   float: right;
-}
-
-.footer-base .list-tepy {
-  font-size: 11px;
-  margin: 0;
-}
-
-.footer-base a {
-  padding: 0 24px 4px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 /*# sourceMappingURL=210413-microsoft切版.css.map */
